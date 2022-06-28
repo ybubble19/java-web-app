@@ -1,5 +1,5 @@
 pipeline {
-  agent('Scan') {
+  agent('Scan') }
   options {
     buildDiscarder(logRotator(numToKeepStr: '5'))
   }
